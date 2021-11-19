@@ -1,0 +1,61 @@
+CRITICAL - 2021-11-19 05:53:37 --> Cannot declare class App\Controllers\Pegawai, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-19 05:54:27 --> Cannot declare class App\Controllers\Pegawai, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-19 05:55:17 --> Cannot declare class App\Controllers\Pegawai, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-19 05:55:18 --> Cannot declare class App\Controllers\Pegawai, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-19 05:55:54 --> Cannot declare class App\Controllers\Pegawai, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-19 05:55:55 --> Cannot declare class App\Controllers\Pegawai, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-19 05:55:56 --> Cannot declare class App\Controllers\Pegawai, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-19 05:56:29 --> Cannot declare class App\Controllers\Pegawai, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-19 05:56:52 --> Cannot declare class App\Controllers\Pegawai, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-11-19 06:07:52 --> Column 'nim' cannot be null
+CRITICAL - 2021-11-19 06:07:52 --> Column 'nim' cannot be null
+#0 C:\xampp\htdocs\ci4crud\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ma...', 0)
+#1 C:\xampp\htdocs\ci4crud\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 C:\xampp\htdocs\ci4crud\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 C:\xampp\htdocs\ci4crud\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 C:\xampp\htdocs\ci4crud\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ci4crud\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ci4crud\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\ci4crud\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\ci4crud\app\Controllers\mahasiswa.php(67): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\ci4crud\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\mahasiswa->simpan()
+#10 C:\xampp\htdocs\ci4crud\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mahasiswa))
+#11 C:\xampp\htdocs\ci4crud\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ci4crud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-11-19 06:13:23 --> valid_nim is not a valid rule.
+#0 C:\xampp\htdocs\ci4crud\vendor\codeigniter4\framework\system\Validation\Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('valid_nim')
+#1 C:\xampp\htdocs\ci4crud\vendor\codeigniter4\framework\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('nim', 'Nim', 'H071201078', Array, Array)
+#2 C:\xampp\htdocs\ci4crud\app\Controllers\mahasiswa.php(53): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\ci4crud\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\mahasiswa->simpan()
+#4 C:\xampp\htdocs\ci4crud\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mahasiswa))
+#5 C:\xampp\htdocs\ci4crud\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4crud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-19 06:13:49 --> valid_nim is not a valid rule.
+#0 C:\xampp\htdocs\ci4crud\vendor\codeigniter4\framework\system\Validation\Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('valid_nim')
+#1 C:\xampp\htdocs\ci4crud\vendor\codeigniter4\framework\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('nim', 'Nim', 'H071201078', Array, Array)
+#2 C:\xampp\htdocs\ci4crud\app\Controllers\mahasiswa.php(53): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\ci4crud\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\mahasiswa->simpan()
+#4 C:\xampp\htdocs\ci4crud\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mahasiswa))
+#5 C:\xampp\htdocs\ci4crud\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4crud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
